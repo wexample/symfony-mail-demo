@@ -1,0 +1,13 @@
+en:
+  subject: Welcome to the demo
+  title: Welcome
+  intro: "An account was opened for %recipient%. Follow the link below to activate it."
+  action: Activate my account
+  footer: This mail was sent by the mailbox demo. Its link leads nowhere.
+
+fr:
+  subject: Bienvenue dans la démo
+  title: Bienvenue
+  intro: "Un compte a été ouvert pour %recipient%. Suivez le lien ci-dessous pour l'activer."
+  action: Activer mon compte
+  footer: "Ce mail a été envoyé par la démo de la boîte mail. Son lien ne mène nulle part."

@@ -1,0 +1,9 @@
+en:
+  subject: A text-only mail
+  intro: Hello,
+  body: "This mail has no HTML part: the mailbox shows its text as it is. Its link:"
+
+fr:
+  subject: Un mail en texte seul
+  intro: Bonjour,
+  body: "Ce mail n'a pas de partie HTML : la boîte affiche son texte tel quel. Son lien :"

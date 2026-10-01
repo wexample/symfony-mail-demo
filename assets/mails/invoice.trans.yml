@@ -1,0 +1,9 @@
+en:
+  subject: Your invoice 2026-001
+  intro: Hello,
+  body: Your invoice is attached to this mail.
+
+fr:
+  subject: Votre facture 2026-001
+  intro: Bonjour,
+  body: Votre facture est jointe à ce mail.

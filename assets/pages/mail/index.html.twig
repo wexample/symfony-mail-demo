@@ -1,0 +1,30 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans({ '%recipient%': recipient }) }}</p>
+
+    <div class="grid grid--3">
+        {%- for sample in samples -%}
+            <section class="block block--card">
+                <div class="block--title">
+                    <span class="block--title-leading">{{ icon(sample.icon) }}</span>
+                    <span class="block--title-label">{{ ('@page::sample.' ~ sample.value ~ '.title') | trans }}</span>
+                </div>
+                <div class="block--body">
+                    <p class="text-secondary">{{ ('@page::sample.' ~ sample.value ~ '.description') | trans }}</p>
+                </div>
+                <form class="block--footer" method="post" action="{{ path('mail_demo_send', { sample: sample.value }) }}">
+                    <span></span>
+                    <input type="hidden" name="_token" value="{{ csrf_token('mail_demo_send') }}">
+                    {{ button('ph:bold/paper-plane-tilt', '@page::action.send' | trans, { type: 'submit', class: 'button--invert' }) }}
+                </form>
+            </section>
+        {%- endfor -%}
+    </div>
+
+    <div class="cluster">
+        {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('mailbox_index'), { class: 'button--flat' }) }}
+    </div>
+{%- endblock -%}

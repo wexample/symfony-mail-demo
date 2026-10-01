@@ -1,0 +1,4 @@
+<h1>{{ '@mail::title' | trans }}</h1>
+<p>{{ '@mail::intro' | trans({ '%recipient%': recipient }) }}</p>
+<p><a href="https://example.com/activate?token=demo">{{ '@mail::action' | trans }}</a></p>
+<p style="color: #666">{{ '@mail::footer' | trans }}</p>

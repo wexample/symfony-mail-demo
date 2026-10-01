@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyMailDemo\Service\:
+        resource: '../../Service/'
+
+    Wexample\SymfonyMailDemo\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']

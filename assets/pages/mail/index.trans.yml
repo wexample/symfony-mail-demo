@@ -1,0 +1,35 @@
+en:
+  page_title: Mail demo
+  page_icon: ph:bold/paper-plane-tilt
+  intro: "Each button sends a mail to %recipient%. It does not leave the machine: it lands in the mailbox, which opens next."
+  sample:
+    welcome:
+      title: Welcome
+      description: An HTML mail with a link, shown isolated from the page.
+    invoice:
+      title: Invoice
+      description: A mail with an attachment.
+    plain:
+      title: Text only
+      description: A mail without HTML, shown as text.
+  action:
+    send: Send
+    mailbox: Open the mailbox
+
+fr:
+  page_title: Démo des mails
+  page_icon: ph:bold/paper-plane-tilt
+  intro: "Chaque bouton envoie un mail à %recipient%. Il ne quitte pas la machine : il arrive dans la boîte mail, qui s'ouvre ensuite."
+  sample:
+    welcome:
+      title: Bienvenue
+      description: Un mail HTML avec un lien, affiché isolé de la page.
+    invoice:
+      title: Facture
+      description: Un mail avec une pièce jointe.
+    plain:
+      title: Texte seul
+      description: Un mail sans HTML, affiché en texte.
+  action:
+    send: Envoyer
+    mailbox: Ouvrir la boîte mail
