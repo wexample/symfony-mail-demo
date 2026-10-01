@@ -3,17 +3,12 @@
 namespace Wexample\SymfonyMailDemo\Service;
 
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
-use Symfony\Component\Mailer\Transport\TransportInterface;
+use Wexample\SymfonyMail\Service\MailSenderService;
 use Wexample\SymfonyMailDemo\Enum\DemoMailSample;
-use Wexample\SymfonyTranslations\Translation\Translator;
 
 /**
- * Sends a sample mail to the demo address. Every text, subject included,
- * comes from the yml next to the template, read as `@mail::`.
- *
- * Handed to the transport, not to the mailer: an application routing
- * SendEmailMessage to a queue would keep the sample there until a worker
- * runs, and the visitor would find the mailbox empty.
+ * Sends a sample mail to the demo address, through the sender every mail of
+ * an application goes through: texts beside the template, layout, locale.
  */
 class DemoMailSenderService
 {
@@ -24,39 +19,33 @@ class DemoMailSenderService
     private const string TEMPLATES_PATH = '@WexampleSymfonyMailDemoBundle/mails/';
 
     public function __construct(
-        private readonly TransportInterface $transport,
-        private readonly Translator $translator,
+        private readonly MailSenderService $sender,
     ) {
     }
 
-    public function send(DemoMailSample $sample): void
-    {
-        $template = self::TEMPLATES_PATH.$sample->value.(DemoMailSample::PLAIN === $sample ? '.txt.twig' : '.html.twig');
+    /**
+     * @param string $locale the visitor's, so the sample reads in the language of the page
+     */
+    public function send(
+        DemoMailSample $sample,
+        string $locale
+    ): void {
+        $email = (new TemplatedEmail())
+            ->from(self::SENDER)
+            ->to(self::RECIPIENT)
+            ->context(['recipient' => self::RECIPIENT]);
 
-        // Held for the rendering too, which the transport does within send().
-        $this->translator->setDomainFromTemplatePath(Translator::DOMAIN_TYPE_MAIL, $template);
-
-        try {
-            $email = (new TemplatedEmail())
-                ->from(self::SENDER)
-                ->to(self::RECIPIENT)
-                ->subject($this->translator->trans('@mail::subject'))
-                ->context(['recipient' => self::RECIPIENT]);
-
-            if (DemoMailSample::PLAIN === $sample) {
-                $email->textTemplate($template);
-            } else {
-                $email->htmlTemplate($template);
-            }
-
-            if (DemoMailSample::INVOICE === $sample) {
-                $email->attach($this->buildInvoice(), 'invoice-2026-001.txt', 'text/plain');
-            }
-
-            $this->transport->send($email);
-        } finally {
-            $this->translator->revertDomain(Translator::DOMAIN_TYPE_MAIL);
+        if (DemoMailSample::PLAIN === $sample) {
+            $email->textTemplate(self::TEMPLATES_PATH.$sample->value.'.txt.twig');
+        } else {
+            $email->htmlTemplate(self::TEMPLATES_PATH.$sample->value.'.html.twig');
         }
+
+        if (DemoMailSample::INVOICE === $sample) {
+            $email->attach($this->buildInvoice(), 'invoice-2026-001.txt', 'text/plain');
+        }
+
+        $this->sender->send($email, $locale);
     }
 
     private function buildInvoice(): string

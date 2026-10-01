@@ -7,4 +7,4 @@ Wexample\SymfonyMailDemo\WexampleSymfonyMailDemoBundle::class => ['all' => true]
 
 Requires symfony-mail and symfony-mail-ds, with `MAILER_DSN=mailbox://default`. The page `/mail/` sends sample mails to `demo@example.com` (an HTML mail with a link, a mail with an attachment, a text-only mail), then opens the mailbox. Routed in `dev` and `test` only.
 
-The samples are handed to the transport rather than to the mailer, so they land at once even where the application queues its mails.
+The samples go through symfony-mail's `MailSenderService`, in the language of the page: they land at once, even where the application queues its mails.

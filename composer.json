@@ -17,13 +17,11 @@
   ],
   "require": {
     "php": ">=8.5",
-    "symfony/twig-bridge": "^7.4",
     "wexample/symfony-design-system": ">=23.0.0",
     "wexample/symfony-helpers": ">=12.0.0",
     "wexample/symfony-loader": ">=15.0.0",
     "wexample/symfony-mail": ">=1.0.1",
-    "wexample/symfony-mail-ds": ">=1.0.1",
-    "wexample/symfony-translations": ">=6.0.0"
+    "wexample/symfony-mail-ds": ">=1.0.1"
   },
   "repositories": [
     {

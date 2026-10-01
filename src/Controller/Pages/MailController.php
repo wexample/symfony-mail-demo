@@ -47,7 +47,7 @@ final class MailController extends AbstractPagesController
             return $this->redirectToRoute('mail_demo_'.self::ROUTE_INDEX);
         }
 
-        $sender->send($sample);
+        $sender->send($sample, $request->getLocale());
 
         return $this->redirectToRoute(MailboxController::ROUTE_INDEX);
     }
