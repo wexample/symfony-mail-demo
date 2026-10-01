@@ -6,6 +6,7 @@ use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyMailDemo\Enum\DemoMailSample;
@@ -29,6 +30,7 @@ final class MailController extends AbstractPagesController
     public const string CSRF_SEND = 'mail_demo_send';
 
     #[Route(path: '', name: self::ROUTE_INDEX)]
+    #[MenuItem(MailboxController::MENU_GROUP, 1)]
     public function index(): Response
     {
         return $this->renderPage(self::ROUTE_INDEX, [
