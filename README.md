@@ -1,10 +1,13 @@
 # symfony-mail-demo
 
-Version: 1.0.1
+Version: 2.0.0
+
+Demo of symfony-mail: sample mails to fill the development mailbox
 
 ## Table of Contents
 
 - [Integration in the Suite](#integration-in-the-suite)
+- [Dependencies](#dependencies)
 - [Versioning & Compatibility Policy](#versioning--compatibility-policy)
 - [License](#license)
 - [About us](#about-us)
@@ -19,6 +22,15 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
 Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
+
+## Dependencies
+
+- php: >=8.5
+- wexample/symfony-design-system: >=25.0.0
+- wexample/symfony-helpers: >=12.0.0
+- wexample/symfony-loader: >=16.0.0
+- wexample/symfony-mail: >=2.0.0
+- wexample/symfony-mail-ds: >=2.0.0
 
 ## Versioning & Compatibility Policy
 
