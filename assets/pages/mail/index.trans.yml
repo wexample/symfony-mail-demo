@@ -1,5 +1,5 @@
 en:
-  page_title: Mail demo
+  page_title: Mails
   page_icon: ph:bold/paper-plane-tilt
   intro: "Each button sends a mail to %recipient%. It does not leave the machine: it lands in the mailbox, which opens next."
   sample:
@@ -17,7 +17,7 @@ en:
     mailbox: Open the mailbox
 
 fr:
-  page_title: Démo des mails
+  page_title: Mails
   page_icon: ph:bold/paper-plane-tilt
   intro: "Chaque bouton envoie un mail à %recipient%. Il ne quitte pas la machine : il arrive dans la boîte mail, qui s'ouvre ensuite."
   sample:
