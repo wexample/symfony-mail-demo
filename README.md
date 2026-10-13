@@ -1,6 +1,6 @@
 # symfony-mail-demo
 
-Version: 2.0.10
+Version: 2.0.11
 
 Demo of symfony-mail: sample mails to fill the development mailbox
 
@@ -26,7 +26,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
 - wexample/symfony-mail: >=2.0.0
