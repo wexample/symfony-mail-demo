@@ -17,3 +17,98 @@ ar:
   subject: 'فاتورتك 2026-001'
   intro: مرحبًا،
   body: 'فاتورتك مرفقة مع هذا البريد.'
+
+hi:
+  subject: 'आपका चालान 2026-001'
+  intro: 'नमस्ते,'
+  body: 'आपका चालान इस मेल के साथ संलग्न है।'
+
+he:
+  subject: 'החשבונית שלך 2026-001'
+  intro: 'שלום,'
+  body: 'החשבונית שלך מצורפת לאימייל הזה.'
+
+fa:
+  subject: 'فاکتور شما 2026-001'
+  intro: سلام،
+  body: 'فاکتور شما به این ایمیل پیوست شده است.'
+
+ur:
+  subject: 'آپ کا انوائس 2026-001'
+  intro: ہیلو،
+  body: 'آپ کا انوائس اس میل کے ساتھ منسلک ہے۔'
+
+ja:
+  subject: '請求書 2026-001'
+  intro: こんにちは、
+  body: 請求書はこのメールに添付されています。
+
+ko:
+  subject: '귀하의 청구서 2026-001'
+  intro: '안녕하세요,'
+  body: '귀하의 청구서가 이 메일에 첨부되어 있습니다.'
+
+bn:
+  subject: 'আপনার ইনভয়েস 2026-001'
+  intro: 'হ্যালো,'
+  body: 'আপনার ইনভয়েস এই মেইলে সংযুক্ত করা হয়েছে।'
+
+th:
+  subject: 'ใบแจ้งหนี้ของคุณ 2026-001'
+  intro: 'สวัสดี,'
+  body: ใบแจ้งหนี้ของคุณแนบมาพร้อมกับอีเมลนี้.
+
+de:
+  subject: 'Ihre Rechnung 2026-001'
+  intro: 'Hallo,'
+  body: 'Ihre Rechnung ist an diese E-Mail angehängt.'
+
+fi:
+  subject: 'Laskusi 2026-001'
+  intro: 'Hei,'
+  body: 'Laskusi on liitetty tähän sähköpostiin.'
+
+ru:
+  subject: 'Ваш счет 2026-001'
+  intro: 'Здравствуйте,'
+  body: 'Ваш счет прикреплен к этому письму.'
+
+pl:
+  subject: 'Twoja faktura 2026-001'
+  intro: 'Cześć,'
+  body: 'Twoja faktura jest załączona do tej wiadomości.'
+
+es:
+  subject: 'Su factura 2026-001'
+  intro: 'Hola,'
+  body: 'Su factura está adjunta a este correo.'
+
+it:
+  subject: 'La tua fattura 2026-001'
+  intro: 'Ciao,'
+  body: 'La tua fattura è allegata a questa mail.'
+
+pt_BR:
+  subject: 'Sua fatura 2026-001'
+  intro: 'Olá,'
+  body: 'Sua fatura está anexada a este e-mail.'
+
+tr:
+  subject: 'Faturanız 2026-001'
+  intro: 'Merhaba,'
+  body: 'Faturanız bu e-postaya eklenmiştir.'
+
+vi:
+  subject: 'Hóa đơn của bạn 2026-001'
+  intro: 'Xin chào,'
+  body: 'Hóa đơn của bạn được đính kèm trong email này.'
+
+id:
+  subject: 'Faktur Anda 2026-001'
+  intro: 'Halo,'
+  body: 'Faktur Anda terlampir dalam email ini.'
+
+nl:
+  subject: 'Uw factuur 2026-001'
+  intro: 'Hallo,'
+  body: 'Uw factuur is bij deze mail gevoegd.'

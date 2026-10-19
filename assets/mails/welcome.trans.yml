@@ -25,3 +25,136 @@ ar:
   intro: 'تم فتح حساب لـ %recipient%. اتبع الرابط أدناه لتفعيله.'
   action: 'تفعيل حسابي'
   footer: 'تم إرسال هذه الرسالة من صندوق البريد التجريبي. الرابط لا يؤدي إلى أي مكان.'
+
+hi:
+  subject: 'डेमो में आपका स्वागत है'
+  title: 'स्वागत है'
+  intro: '%recipient% के लिए एक खाता खोला गया था। इसे सक्रिय करने के लिए नीचे दिए गए लिंक का पालन करें।'
+  action: 'मेरे खाते को सक्रिय करें'
+  footer: 'यह मेल मेलबॉक्स डेमो द्वारा भेजा गया था। इसका लिंक कहीं नहीं जाता।'
+
+he:
+  subject: 'ברוך הבא לדמו'
+  title: 'ברוך הבא'
+  intro: 'נפתח חשבון עבור %recipient%. עקוב אחרי הקישור למטה כדי להפעיל אותו.'
+  action: 'הפעל את החשבון שלי'
+  footer: 'דואר זה נשלח על ידי תיבת הדואר demo. הקישור שלו לא מוביל לשום מקום.'
+
+fa:
+  subject: 'به دمو خوش آمدید'
+  title: 'خوش آمدید'
+  intro: 'یک حساب برای %recipient% ایجاد شده است. برای فعال‌سازی آن به لینک زیر مراجعه کنید.'
+  action: 'حساب من را فعال کن'
+  footer: 'این ایمیل توسط صندوق پستی دمو ارسال شده است. این لینک به جایی نمی‌رسد.'
+
+ur:
+  subject: 'ڈیمو میں خوش آمدید'
+  title: 'خوش آمدید'
+  intro: 'کے لیے %recipient% ایک اکاؤنٹ کھولا گیا تھا۔ اسے فعال کرنے کے لیے نیچے دیے گئے لنک پر کلک کریں۔'
+  action: 'میرے اکاؤنٹ کو فعال کریں'
+  footer: 'یہ میل میل باکس ڈیمو کی طرف سے بھیجی گئی تھی۔ اس کا لنک کہیں نہیں جاتا۔'
+
+ja:
+  subject: デモへようこそ
+  title: ようこそ
+  intro: '%recipient% のためにアカウントが開設されました。以下のリンクをクリックしてアカウントを有効化してください。'
+  action: アカウントを有効化する
+  footer: このメールはデモ用メールボックスから送信されました。このリンクは無効です。
+
+ko:
+  subject: '데모에 오신 것을 환영합니다'
+  title: 환영합니다
+  intro: '%recipient%을(를) 위해 계정이 생성되었습니다. 아래 링크를 따라 활성화하세요.'
+  action: '내 계정 활성화'
+  footer: '이 메일은 데모 메일박스에서 발송되었습니다. 링크는 아무 데도 연결되지 않습니다.'
+
+bn:
+  subject: 'ডেমোতে স্বাগতম'
+  title: স্বাগতম
+  intro: '%recipient% এর জন্য একটি অ্যাকাউন্ট খোলা হয়েছে। এটি সক্রিয় করতে নিচের লিঙ্কটি অনুসরণ করুন।'
+  action: 'আমার অ্যাকাউন্ট সক্রিয় করুন'
+  footer: 'এই মেইলটি ডেমো মেইলবক্স দ্বারা পাঠানো হয়েছে। এর লিঙ্কটি কোথাও নিয়ে যায় না।'
+
+th:
+  subject: ยินดีต้อนรับสู่การสาธิต
+  title: ยินดีต้อนรับ
+  intro: 'บัญชีถูกเปิดสำหรับ %recipient%. กรุณาตามลิงก์ด้านล่างเพื่อทำการเปิดใช้งาน.'
+  action: เปิดใช้งานบัญชีของฉัน
+  footer: 'อีเมลนี้ถูกส่งโดยกล่องจดหมายการสาธิต ลิงก์นี้ไม่มีที่ไป.'
+
+de:
+  subject: 'Willkommen zur Demo'
+  title: Willkommen
+  intro: 'Ein Konto wurde für %recipient% eröffnet. Folgen Sie dem untenstehenden Link, um es zu aktivieren.'
+  action: 'Mein Konto aktivieren'
+  footer: 'Diese E-Mail wurde von der Mailbox Demo gesendet. Ihr Link führt nirgendwohin.'
+
+fi:
+  subject: 'Tervetuloa demoon'
+  title: Tervetuloa
+  intro: 'Tilin on avannut %recipient%. Seuraa alla olevaa linkkiä aktivoidaksesi sen.'
+  action: 'Aktivoi tilini'
+  footer: 'Tämä sähköposti lähetettiin postilaatikosta demo. Sen linkki ei vie minnekään.'
+
+ru:
+  subject: 'Добро пожаловать на демонстрацию'
+  title: 'Добро пожаловать'
+  intro: 'Учетная запись была открыта для %recipient%. Следуйте по ссылке ниже, чтобы активировать её.'
+  action: 'Активировать мою учетную запись'
+  footer: 'Это письмо было отправлено с почтового ящика demo. Его ссылка никуда не ведет.'
+
+pl:
+  subject: 'Witamy w demie'
+  title: Witamy
+  intro: 'Konto zostało otwarte dla %recipient%. Postępuj zgodnie z poniższym linkiem, aby je aktywować.'
+  action: 'Aktywuj moje konto'
+  footer: 'Ten mail został wysłany z skrzynki demo. Jego link nie prowadzi nigdzie.'
+
+es:
+  subject: 'Bienvenido a la demostración'
+  title: Bienvenido
+  intro: 'Se ha abierto una cuenta para %recipient%. Sigue el enlace a continuación para activarla.'
+  action: 'Activar mi cuenta'
+  footer: 'Este correo fue enviado por la bandeja de entrada demo. Su enlace no lleva a ningún lado.'
+
+it:
+  subject: 'Benvenuto nella demo'
+  title: Benvenuto
+  intro: 'È stato aperto un account per %recipient%. Segui il link qui sotto per attivarlo.'
+  action: 'Attiva il mio account'
+  footer: 'Questa mail è stata inviata dalla casella di posta demo. Il suo link non porta da nessuna parte.'
+
+pt_BR:
+  subject: 'Bem-vindo à demonstração'
+  title: Bem-vindo
+  intro: 'Uma conta foi criada para %recipient%. Siga o link abaixo para ativá-la.'
+  action: 'Ativar minha conta'
+  footer: 'Este e-mail foi enviado pela caixa de correio demo. Seu link não leva a lugar nenhum.'
+
+tr:
+  subject: 'Demoya hoş geldiniz'
+  title: 'Hoş geldiniz'
+  intro: '%recipient% için bir hesap açıldı. Aktifleştirmek için aşağıdaki bağlantıyı takip edin.'
+  action: 'Hesabımı aktifleştir'
+  footer: 'Bu mail demo posta kutusundan gönderilmiştir. Bağlantısı bir yere gitmiyor.'
+
+vi:
+  subject: 'Chào mừng đến với bản demo'
+  title: 'Chào mừng'
+  intro: 'Một tài khoản đã được mở cho %recipient%. Hãy theo liên kết bên dưới để kích hoạt nó.'
+  action: 'Kích hoạt tài khoản của tôi'
+  footer: 'Email này được gửi bởi hộp thư demo. Liên kết của nó không dẫn đến đâu cả.'
+
+id:
+  subject: 'Selamat datang di demo'
+  title: 'Selamat datang'
+  intro: 'Sebuah akun telah dibuka untuk %recipient%. Ikuti tautan di bawah ini untuk mengaktifkannya.'
+  action: 'Aktifkan akun saya'
+  footer: 'Email ini dikirim oleh kotak surat demo. Tautan ini tidak mengarah ke mana-mana.'
+
+nl:
+  subject: 'Welkom bij de demo'
+  title: Welkom
+  intro: 'Er is een account geopend voor %recipient%. Volg de link hieronder om het te activeren.'
+  action: 'Activeer mijn account'
+  footer: 'Deze mail is verzonden door de mailbox demo. De link leidt nergens naartoe.'

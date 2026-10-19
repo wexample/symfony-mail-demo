@@ -17,3 +17,98 @@ ar:
   subject: 'رسالة نصية فقط'
   intro: مرحباً،
   body: 'هذه الرسالة لا تحتوي على جزء HTML: يظهر صندوق البريد نصها كما هو. رابطها:'
+
+hi:
+  subject: 'एक केवल टेक्स्ट वाला मेल'
+  intro: 'नमस्ते,'
+  body: 'इस मेल में कोई HTML भाग नहीं है: मेलबॉक्स इसे उसके असली रूप में दिखाता है। इसका लिंक:'
+
+he:
+  subject: 'מייל טקסטואלי בלבד'
+  intro: 'שלום,'
+  body: 'מייל זה אינו מכיל חלק HTML: תיבת הדואר מציגה את הטקסט כפי שהוא. הקישור שלו:'
+
+fa:
+  subject: 'ایمیل فقط متنی'
+  intro: سلام،
+  body: 'این ایمیل هیچ قسمت HTML ندارد: صندوق پستی متن آن را به همان شکل نمایش می‌دهد. لینک آن:'
+
+ur:
+  subject: 'صرف متن والا میل'
+  intro: ہیلو،
+  body: 'اس میل میں کوئی HTML حصہ نہیں ہے: میل باکس اپنا متن جیسے ہے ویسے ہی دکھاتا ہے۔ اس کا لنک:'
+
+ja:
+  subject: テキストのみのメール
+  intro: こんにちは、
+  body: 'このメールにはHTML部分がありません: メールボックスはそのテキストをそのまま表示します。リンクはこちら:'
+
+ko:
+  subject: '텍스트 전용 메일'
+  intro: '안녕하세요,'
+  body: '이 메일에는 HTML 부분이 없습니다: 메일함은 텍스트 그대로 표시됩니다. 링크는:'
+
+bn:
+  subject: 'শুধু টেক্সটের মেইল'
+  intro: 'হ্যালো,'
+  body: 'এই মেইলে কোনো HTML অংশ নেই: মেইলবক্স এটি ঠিক যেমন আছে তেমনই দেখায়। এর লিঙ্ক:'
+
+th:
+  subject: อีเมลที่มีเฉพาะข้อความ
+  intro: 'สวัสดีค่ะ,'
+  body: 'อีเมลนี้ไม่มีส่วน HTML: กล่องจดหมายจะแสดงข้อความตามที่เป็นอยู่ ลิงก์ของมัน:'
+
+de:
+  subject: 'Eine rein textbasierte E-Mail'
+  intro: 'Hallo,'
+  body: 'Diese E-Mail hat keinen HTML-Teil: Das Postfach zeigt den Text so an, wie er ist. Sein Link:'
+
+fi:
+  subject: 'Pelkkä teksti-sähköposti'
+  intro: 'Hei,'
+  body: 'Tässä sähköpostissa ei ole HTML-osaa: postilaatikko näyttää sen tekstin sellaisena kuin se on. Sen linkki:'
+
+ru:
+  subject: 'Письмо только с текстом'
+  intro: 'Здравствуйте,'
+  body: 'Это письмо не имеет HTML-части: почтовый ящик отображает текст как есть. Его ссылка:'
+
+pl:
+  subject: 'E-mail tylko tekstowy'
+  intro: 'Cześć,'
+  body: 'Ten e-mail nie zawiera części HTML: skrzynka pocztowa wyświetla jego tekst tak, jak jest. Jego link:'
+
+es:
+  subject: 'Un correo solo de texto'
+  intro: 'Hola,'
+  body: 'Este correo no tiene parte HTML: la bandeja de entrada muestra su texto tal como es. Su enlace:'
+
+it:
+  subject: 'Una mail solo testo'
+  intro: 'Ciao,'
+  body: "Questa mail non ha parte HTML: la casella di posta mostra il suo testo così com'è. Il suo link:"
+
+pt_BR:
+  subject: 'Um e-mail apenas com texto'
+  intro: 'Olá,'
+  body: 'Este e-mail não tem parte em HTML: a caixa de entrada mostra seu texto como está. Seu link:'
+
+tr:
+  subject: 'Sadece metin içeren bir e-posta'
+  intro: 'Merhaba,'
+  body: 'Bu e-posta HTML kısmı yok: gelen kutusu metni olduğu gibi gösterir. Bağlantısı:'
+
+vi:
+  subject: 'Một email chỉ có văn bản'
+  intro: 'Xin chào,'
+  body: 'Email này không có phần HTML: hộp thư hiển thị văn bản của nó như nó là. Liên kết của nó:'
+
+id:
+  subject: 'Email teks saja'
+  intro: 'Halo,'
+  body: 'Email ini tidak memiliki bagian HTML: kotak masuk menampilkan teksnya apa adanya. Tautannya:'
+
+nl:
+  subject: 'Een mail met alleen tekst'
+  intro: 'Hallo,'
+  body: 'Deze mail heeft geen HTML-gedeelte: de mailbox toont de tekst zoals deze is. De link:'

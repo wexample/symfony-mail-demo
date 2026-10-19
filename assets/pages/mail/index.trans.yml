@@ -69,3 +69,345 @@ ar:
   action:
     send: إرسال
     mailbox: 'فتح صندوق البريد'
+
+hi:
+  page_title: मेल
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'प्रत्येक बटन %recipient% को एक मेल भेजता है। यह मशीन को छोड़ता नहीं है: यह अगले में मेलबॉक्स में पहुँचता है।'
+  sample:
+    welcome:
+      title: 'स्वागत है'
+      description: 'एक HTML मेल जिसमें एक लिंक है, जो पृष्ठ से अलग दिखाया गया है।'
+    invoice:
+      title: चालान
+      description: 'एक अटैचमेंट के साथ मेल।'
+    plain:
+      title: 'केवल पाठ'
+      description: 'HTML के बिना एक मेल, जो पाठ के रूप में दिखता है।'
+  action:
+    send: भेजें
+    mailbox: 'मेलबॉक्स खोलें'
+
+he:
+  page_title: מיילים
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'כל כפתור שולח מייל ל-%recipient%. הוא לא עוזב את המחשב: הוא נוחת בתיבת הדואר, שתיפתח מיד.'
+  sample:
+    welcome:
+      title: 'ברוך הבא'
+      description: 'מייל HTML עם קישור, מוצג מבודד מהעמוד.'
+    invoice:
+      title: חשבונית
+      description: 'מייל עם קובץ מצורף.'
+    plain:
+      title: 'רק טקסט'
+      description: 'מייל ללא HTML, מוצג כטקסט.'
+  action:
+    send: שלח
+    mailbox: 'פתח את תיבת הדואר'
+
+fa:
+  page_title: 'ایمیل ها'
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'هر دکمه یک ایمیل به %recipient% ارسال می کند. ایمیل از دستگاه خارج نمی شود: در صندوق پستی فرود می آید که بعداً باز می شود.'
+  sample:
+    welcome:
+      title: 'خوش آمدید'
+      description: 'یک ایمیل HTML با یک لینک، که به صورت جداگانه از صفحه نمایش داده می شود.'
+    invoice:
+      title: صورتحساب
+      description: 'ایمیلی با یک پیوست.'
+    plain:
+      title: 'فقط متن'
+      description: 'یک ایمیل بدون HTML، که به صورت متن نمایش داده می شود.'
+  action:
+    send: ارسال
+    mailbox: 'صندوق پستی را باز کن'
+
+ur:
+  page_title: میل
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'ہر بٹن %recipient% پر میل بھیجتا ہے۔ یہ مشین سے باہر نہیں جاتا: یہ میل باکس میں پہنچتا ہے، جو اگلے کھلتا ہے۔'
+  sample:
+    welcome:
+      title: 'خوش آمدید'
+      description: 'ایک ایچ ٹی ایم ایل میل جس میں ایک لنک ہے، جو صفحے سے الگ دکھائی دیتا ہے۔'
+    invoice:
+      title: بل
+      description: 'ایک میل جس میں ایک اٹیچمنٹ ہے۔'
+    plain:
+      title: 'صرف متن'
+      description: 'ایک میل بغیر ایچ ٹی ایم ایل، جو متن کے طور پر دکھائی دیتا ہے۔'
+  action:
+    send: بھیجیں
+    mailbox: 'میل باکس کھولیں'
+
+ja:
+  page_title: メール
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: '各ボタンは %recipient% にメールを送信します。マシンを離れず、次に開く受信トレイに届きます。'
+  sample:
+    welcome:
+      title: ようこそ
+      description: リンク付きのHTMLメールで、ページから孤立して表示されます。
+    invoice:
+      title: 請求書
+      description: 添付ファイル付きのメールです。
+    plain:
+      title: テキストのみ
+      description: HTMLなしのメールで、テキストとして表示されます。
+  action:
+    send: 送信
+    mailbox: 受信トレイを開く
+
+ko:
+  page_title: 메일
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: '각 버튼은 %recipient%에게 메일을 보냅니다. 기계를 떠나지 않고, 다음에 열리는 우편함에 도착합니다.'
+  sample:
+    welcome:
+      title: 환영합니다
+      description: '링크가 포함된 HTML 메일로, 페이지와 분리되어 표시됩니다.'
+    invoice:
+      title: 청구서
+      description: '첨부파일이 있는 메일입니다.'
+    plain:
+      title: '텍스트 전용'
+      description: 'HTML 없이 텍스트로 표시되는 메일입니다.'
+  action:
+    send: 보내기
+    mailbox: '우편함 열기'
+
+bn:
+  page_title: মেইল
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'প্রতিটি বোতাম %recipient% এ একটি মেইল পাঠায়। এটি মেশিন থেকে বের হয় না: এটি পরেরটি খোলার জন্য মেইলবক্সে নামে।'
+  sample:
+    welcome:
+      title: স্বাগতম
+      description: 'একটি HTML মেইল একটি লিঙ্ক সহ, পৃষ্ঠার থেকে বিচ্ছিন্নভাবে প্রদর্শিত।'
+    invoice:
+      title: চালান
+      description: 'একটি সংযুক্তি সহ একটি মেইল।'
+    plain:
+      title: 'শুধুমাত্র টেক্সট'
+      description: 'একটি HTML ছাড়া মেইল, টেক্সট হিসেবে প্রদর্শিত।'
+  action:
+    send: পাঠান
+    mailbox: 'মেইলবক্স খোলুন'
+
+th:
+  page_title: อีเมล
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'แต่ละปุ่มจะส่งอีเมลไปยัง %recipient%. มันจะไม่ออกจากเครื่อง: มันจะลงจอดในกล่องจดหมายที่เปิดอยู่ถัดไป.'
+  sample:
+    welcome:
+      title: ยินดีต้อนรับ
+      description: 'อีเมล HTML พร้อมลิงก์ แสดงแยกออกจากหน้า.'
+    invoice:
+      title: ใบแจ้งหนี้
+      description: อีเมลที่มีไฟล์แนบ.
+    plain:
+      title: ข้อความเท่านั้น
+      description: 'อีเมลที่ไม่มี HTML แสดงเป็นข้อความ.'
+  action:
+    send: ส่ง
+    mailbox: เปิดกล่องจดหมาย
+
+de:
+  page_title: Mails
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Jeder Button sendet eine Mail an %recipient%. Es verlässt nicht die Maschine: Es landet im Postfach, das als Nächstes öffnet.'
+  sample:
+    welcome:
+      title: Willkommen
+      description: 'Eine HTML-Mail mit einem Link, die isoliert von der Seite angezeigt wird.'
+    invoice:
+      title: Rechnung
+      description: 'Eine Mail mit einem Anhang.'
+    plain:
+      title: 'Nur Text'
+      description: 'Eine Mail ohne HTML, die als Text angezeigt wird.'
+  action:
+    send: Senden
+    mailbox: 'Postfach öffnen'
+
+fi:
+  page_title: Sähkeet
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Jokainen painike lähettää sähköpostin kohteelle %recipient%. Se ei poistu koneelta: se laskeutuu postilaatikkoon, joka avautuu seuraavaksi.'
+  sample:
+    welcome:
+      title: Tervetuloa
+      description: 'HTML-sähköposti, jossa on linkki, esitetään eristettynä sivulta.'
+    invoice:
+      title: Lasku
+      description: 'Sähköposti liitteellä.'
+    plain:
+      title: 'Vain teksti'
+      description: 'Sähköposti ilman HTML:ää, esitetään tekstinä.'
+  action:
+    send: Lähetä
+    mailbox: 'Avaa postilaatikko'
+
+ru:
+  page_title: Почта
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Каждая кнопка отправляет письмо на %recipient%. Оно не покидает компьютер: попадает в почтовый ящик, который откроется далее.'
+  sample:
+    welcome:
+      title: 'Добро пожаловать'
+      description: 'HTML-письмо с ссылкой, показанное отдельно от страницы.'
+    invoice:
+      title: Счет
+      description: 'Письмо с вложением.'
+    plain:
+      title: 'Только текст'
+      description: 'Письмо без HTML, отображаемое как текст.'
+  action:
+    send: Отправить
+    mailbox: 'Открыть почтовый ящик'
+
+pl:
+  page_title: Maile
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Każdy przycisk wysyła maila do %recipient%. Nie opuszcza maszyny: ląduje w skrzynce pocztowej, która otworzy się następnie.'
+  sample:
+    welcome:
+      title: Witamy
+      description: 'Mail HTML z linkiem, wyświetlany oddzielnie od strony.'
+    invoice:
+      title: Faktura
+      description: 'Mail z załącznikiem.'
+    plain:
+      title: 'Tylko tekst'
+      description: 'Mail bez HTML, wyświetlany jako tekst.'
+  action:
+    send: Wyślij
+    mailbox: 'Otwórz skrzynkę pocztową'
+
+es:
+  page_title: Correos
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Cada botón envía un correo a %recipient%. No sale de la máquina: aterriza en el buzón, que se abrirá a continuación.'
+  sample:
+    welcome:
+      title: Bienvenido
+      description: 'Un correo HTML con un enlace, mostrado aislado de la página.'
+    invoice:
+      title: Factura
+      description: 'Un correo con un archivo adjunto.'
+    plain:
+      title: 'Solo texto'
+      description: 'Un correo sin HTML, mostrado como texto.'
+  action:
+    send: Enviar
+    mailbox: 'Abrir el buzón'
+
+it:
+  page_title: Email
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Ogni pulsante invia una mail a %recipient%. Non esce dalla macchina: atterra nella casella di posta, che si apre dopo.'
+  sample:
+    welcome:
+      title: Benvenuto
+      description: 'Una mail HTML con un link, mostrata isolata dalla pagina.'
+    invoice:
+      title: Fattura
+      description: 'Una mail con un allegato.'
+    plain:
+      title: 'Solo testo'
+      description: 'Una mail senza HTML, mostrata come testo.'
+  action:
+    send: Invia
+    mailbox: 'Apri la casella di posta'
+
+pt_BR:
+  page_title: Emails
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Cada botão envia um email para %recipient%. Ele não sai da máquina: ele cai na caixa de entrada, que abre a seguir.'
+  sample:
+    welcome:
+      title: Bem-vindo
+      description: 'Um email em HTML com um link, mostrado isolado da página.'
+    invoice:
+      title: Fatura
+      description: 'Um email com um anexo.'
+    plain:
+      title: 'Somente texto'
+      description: 'Um email sem HTML, mostrado como texto.'
+  action:
+    send: Enviar
+    mailbox: 'Abrir a caixa de entrada'
+
+tr:
+  page_title: Mektuplar
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: "Her buton %recipient%'a bir mail gönderir. Makineden çıkmaz: sonraki açılan posta kutusuna iner."
+  sample:
+    welcome:
+      title: 'Hoş geldiniz'
+      description: 'Sayfadan izole şekilde gösterilen, içinde bir bağlantı olan HTML mail.'
+    invoice:
+      title: Fatura
+      description: 'Bir eki olan mail.'
+    plain:
+      title: 'Sadece metin'
+      description: 'HTML içermeyen, metin olarak gösterilen mail.'
+  action:
+    send: Gönder
+    mailbox: 'Posta kutusunu aç'
+
+vi:
+  page_title: Thư
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Mỗi nút gửi một email đến %recipient%. Nó không rời khỏi máy: nó sẽ đến hộp thư, sẽ mở ra ngay sau đó.'
+  sample:
+    welcome:
+      title: 'Chào mừng'
+      description: 'Một email HTML với một liên kết, hiển thị tách biệt khỏi trang.'
+    invoice:
+      title: 'Hóa đơn'
+      description: 'Một email có tệp đính kèm.'
+    plain:
+      title: 'Chỉ văn bản'
+      description: 'Một email không có HTML, hiển thị dưới dạng văn bản.'
+  action:
+    send: Gửi
+    mailbox: 'Mở hộp thư'
+
+id:
+  page_title: Surat
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Setiap tombol mengirim surat ke %recipient%. Itu tidak meninggalkan mesin: itu mendarat di kotak surat, yang akan terbuka selanjutnya.'
+  sample:
+    welcome:
+      title: 'Selamat datang'
+      description: 'Sebuah surat HTML dengan tautan, ditampilkan terpisah dari halaman.'
+    invoice:
+      title: Faktur
+      description: 'Sebuah surat dengan lampiran.'
+    plain:
+      title: 'Teks saja'
+      description: 'Sebuah surat tanpa HTML, ditampilkan sebagai teks.'
+  action:
+    send: Kirim
+    mailbox: 'Buka kotak surat'
+
+nl:
+  page_title: E-mails
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'Elke knop verstuurt een e-mail naar %recipient%. Het verlaat de machine niet: het komt in de mailbox, die zojuist opent.'
+  sample:
+    welcome:
+      title: Welkom
+      description: 'Een HTML-e-mail met een link, geïsoleerd weergegeven van de pagina.'
+    invoice:
+      title: Factuur
+      description: 'Een e-mail met een bijlage.'
+    plain:
+      title: 'Alleen tekst'
+      description: 'Een e-mail zonder HTML, weergegeven als tekst.'
+  action:
+    send: Verstuur
+    mailbox: 'Open de mailbox'
