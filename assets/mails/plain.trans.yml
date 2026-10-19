@@ -7,3 +7,13 @@ fr:
   subject: Un mail en texte seul
   intro: Bonjour,
   body: "Ce mail n'a pas de partie HTML : la boîte affiche son texte tel quel. Son lien :"
+
+zh:
+  subject: 纯文本邮件
+  intro: 你好，
+  body: 这封邮件没有HTML部分：邮箱显示的文本就是它的内容。链接是：
+
+ar:
+  subject: 'رسالة نصية فقط'
+  intro: مرحباً،
+  body: 'هذه الرسالة لا تحتوي على جزء HTML: يظهر صندوق البريد نصها كما هو. رابطها:'

@@ -33,3 +33,39 @@ fr:
   action:
     send: Envoyer
     mailbox: Ouvrir la boîte mail
+
+zh:
+  page_title: 邮件
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: '每个按钮都向 %recipient% 发送一封邮件。邮件不会离开机器：它会落入下一个打开的邮箱中。'
+  sample:
+    welcome:
+      title: 欢迎
+      description: '一封包含链接的 HTML 邮件，独立于页面显示。'
+    invoice:
+      title: 发票
+      description: 一封带有附件的邮件。
+    plain:
+      title: 纯文本
+      description: '一封没有 HTML 的邮件，作为文本显示。'
+  action:
+    send: 发送
+    mailbox: 打开邮箱
+
+ar:
+  page_title: البريد
+  page_icon: 'ph:bold/paper-plane-tilt'
+  intro: 'كل زر يرسل بريدًا إلى %recipient%. لا يغادر الجهاز: يصل إلى صندوق البريد، الذي يفتح بعد ذلك.'
+  sample:
+    welcome:
+      title: مرحبًا
+      description: 'بريد HTML مع رابط، يظهر بشكل منفصل عن الصفحة.'
+    invoice:
+      title: فاتورة
+      description: 'بريد مع مرفق.'
+    plain:
+      title: 'نص فقط'
+      description: 'بريد بدون HTML، يظهر كنص.'
+  action:
+    send: إرسال
+    mailbox: 'فتح صندوق البريد'

@@ -7,3 +7,13 @@ fr:
   subject: Votre facture 2026-001
   intro: Bonjour,
   body: Votre facture est jointe à ce mail.
+
+zh:
+  subject: '您的发票 2026-001'
+  intro: 您好，
+  body: 您的发票已附在此邮件中。
+
+ar:
+  subject: 'فاتورتك 2026-001'
+  intro: مرحبًا،
+  body: 'فاتورتك مرفقة مع هذا البريد.'

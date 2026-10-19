@@ -11,3 +11,17 @@ fr:
   intro: "Un compte a été ouvert pour %recipient%. Suivez le lien ci-dessous pour l'activer."
   action: Activer mon compte
   footer: "Ce mail a été envoyé par la démo de la boîte mail. Son lien ne mène nulle part."
+
+zh:
+  subject: 欢迎参加演示
+  title: 欢迎
+  intro: '为 %recipient% 开设了一个账户。请按照下面的链接激活它。'
+  action: 激活我的账户
+  footer: 此邮件由演示邮箱发送。该链接无效。
+
+ar:
+  subject: 'مرحبًا بك في العرض التقديمي'
+  title: مرحبًا
+  intro: 'تم فتح حساب لـ %recipient%. اتبع الرابط أدناه لتفعيله.'
+  action: 'تفعيل حسابي'
+  footer: 'تم إرسال هذه الرسالة من صندوق البريد التجريبي. الرابط لا يؤدي إلى أي مكان.'

@@ -1,0 +1,194 @@
+{
+    "mails/invoice.ar.yml": {
+        "body": {
+            "hash": "c74c003384a3bb1b2e249b7533d98a9b",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "4fe354626b9f46faebec2706c44d9a8e",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "7c86261547b50e5bcb6bbb60e56f460b",
+            "engine": "syrtis"
+        }
+    },
+    "mails/invoice.zh.yml": {
+        "body": {
+            "hash": "c74c003384a3bb1b2e249b7533d98a9b",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "4fe354626b9f46faebec2706c44d9a8e",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "7c86261547b50e5bcb6bbb60e56f460b",
+            "engine": "syrtis"
+        }
+    },
+    "mails/plain.ar.yml": {
+        "body": {
+            "hash": "ee8d4b3a91dc51b3f398cbb830882322",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "4fe354626b9f46faebec2706c44d9a8e",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "87a87cf07056af2b73dcd6f96ef39231",
+            "engine": "syrtis"
+        }
+    },
+    "mails/plain.zh.yml": {
+        "body": {
+            "hash": "ee8d4b3a91dc51b3f398cbb830882322",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "4fe354626b9f46faebec2706c44d9a8e",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "87a87cf07056af2b73dcd6f96ef39231",
+            "engine": "syrtis"
+        }
+    },
+    "mails/welcome.ar.yml": {
+        "action": {
+            "hash": "669aa4f05411b2b9a88cce221bc76e93",
+            "engine": "syrtis"
+        },
+        "footer": {
+            "hash": "6d33a44367aaea9adcea3938a7a1dc6b",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "ebc26cd06535069e04d438332d0c73f4",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "6c498630fe69719a9d0a168b8d41ae5b",
+            "engine": "syrtis"
+        },
+        "title": {
+            "hash": "18554cc729af88b3a834df860357d608",
+            "engine": "syrtis"
+        }
+    },
+    "mails/welcome.zh.yml": {
+        "action": {
+            "hash": "669aa4f05411b2b9a88cce221bc76e93",
+            "engine": "syrtis"
+        },
+        "footer": {
+            "hash": "6d33a44367aaea9adcea3938a7a1dc6b",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "ebc26cd06535069e04d438332d0c73f4",
+            "engine": "syrtis"
+        },
+        "subject": {
+            "hash": "6c498630fe69719a9d0a168b8d41ae5b",
+            "engine": "syrtis"
+        },
+        "title": {
+            "hash": "18554cc729af88b3a834df860357d608",
+            "engine": "syrtis"
+        }
+    },
+    "pages/mail/index.ar.yml": {
+        "action.mailbox": {
+            "hash": "0ef8ec644a79cf1ee21df96945df5a6c",
+            "engine": "syrtis"
+        },
+        "action.send": {
+            "hash": "e9f86b8ee81b188bacdbc40953177dcb",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "fbef2b4442b0b7012047fdff763dd2b6",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "3ae950bb5f42bcc89eb19dd864054f50",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "e4cfb90454cd51ff738899c1b2d2953d",
+            "engine": "syrtis"
+        },
+        "sample.invoice.description": {
+            "hash": "c24529e39eff0bd2842dd1abbf795fe7",
+            "engine": "syrtis"
+        },
+        "sample.invoice.title": {
+            "hash": "7ecebb0a6042ded3ebc1ef615b71dea6",
+            "engine": "syrtis"
+        },
+        "sample.plain.description": {
+            "hash": "2a6e5445a0a0f6035c404ac44e9c369c",
+            "engine": "syrtis"
+        },
+        "sample.plain.title": {
+            "hash": "ca2520720059fc4abb1ccab854e10c0a",
+            "engine": "syrtis"
+        },
+        "sample.welcome.description": {
+            "hash": "28eae6910b6570566b8693128e6ccd16",
+            "engine": "syrtis"
+        },
+        "sample.welcome.title": {
+            "hash": "18554cc729af88b3a834df860357d608",
+            "engine": "syrtis"
+        }
+    },
+    "pages/mail/index.zh.yml": {
+        "action.mailbox": {
+            "hash": "0ef8ec644a79cf1ee21df96945df5a6c",
+            "engine": "syrtis"
+        },
+        "action.send": {
+            "hash": "e9f86b8ee81b188bacdbc40953177dcb",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "fbef2b4442b0b7012047fdff763dd2b6",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "3ae950bb5f42bcc89eb19dd864054f50",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "e4cfb90454cd51ff738899c1b2d2953d",
+            "engine": "syrtis"
+        },
+        "sample.invoice.description": {
+            "hash": "c24529e39eff0bd2842dd1abbf795fe7",
+            "engine": "syrtis"
+        },
+        "sample.invoice.title": {
+            "hash": "7ecebb0a6042ded3ebc1ef615b71dea6",
+            "engine": "syrtis"
+        },
+        "sample.plain.description": {
+            "hash": "2a6e5445a0a0f6035c404ac44e9c369c",
+            "engine": "syrtis"
+        },
+        "sample.plain.title": {
+            "hash": "ca2520720059fc4abb1ccab854e10c0a",
+            "engine": "syrtis"
+        },
+        "sample.welcome.description": {
+            "hash": "28eae6910b6570566b8693128e6ccd16",
+            "engine": "syrtis"
+        },
+        "sample.welcome.title": {
+            "hash": "18554cc729af88b3a834df860357d608",
+            "engine": "syrtis"
+        }
+    }
+}
