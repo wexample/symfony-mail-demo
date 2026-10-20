@@ -1,6 +1,6 @@
 # symfony-mail-demo
 
-Version: 2.0.15
+Version: 2.0.16
 
 Demo of symfony-mail: sample mails to fill the development mailbox
 
@@ -24,9 +24,9 @@ The suite includes packages for configuration management, file handling, prompts
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-design-system: >=38.0.0
-- wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.3.0
+- wexample/symfony-design-system: >=39.0.0
+- wexample/symfony-helpers: >=18.0.0
+- wexample/symfony-loader: >=24.0.0
 - wexample/symfony-mail: >=3.0.0
 - wexample/symfony-mail-ds: >=2.2.0
 
