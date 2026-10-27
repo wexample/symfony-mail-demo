@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-mail-demo",
   "description": "Demo of symfony-mail: sample mails to fill the development mailbox",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -19,8 +19,8 @@
     "php": ">=8.5",
     "wexample/symfony-design-system": ">=39.0.3",
     "wexample/symfony-helpers": ">=18.0.2",
-    "wexample/symfony-loader": ">=25.1.0",
-    "wexample/symfony-mail": ">=3.0.4",
+    "wexample/symfony-loader": ">=25.3.0",
+    "wexample/symfony-mail": ">=4.0.0",
     "wexample/symfony-mail-ds": ">=2.2.3"
   },
   "repositories": [
