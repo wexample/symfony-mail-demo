@@ -1,6 +1,6 @@
 # symfony-mail-demo
 
-Version: 2.0.20
+Version: 2.0.21
 
 Demo of symfony-mail: sample mails to fill the development mailbox
 
